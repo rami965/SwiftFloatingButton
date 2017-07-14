@@ -14,12 +14,6 @@
 		05F1A4211F16D093002F6EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F1A41F1F16D093002F6EE2 /* LaunchScreen.storyboard */; };
 		05F1A42C1F16D093002F6EE2 /* Map_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1A42B1F16D093002F6EE2 /* Map_AnimationTests.swift */; };
 		05F1A4371F16D093002F6EE2 /* Map_AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1A4361F16D093002F6EE2 /* Map_AnimationUITests.swift */; };
-		05F1A44C1F16D83A002F6EE2 /* Floaty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1A4461F16D83A002F6EE2 /* Floaty.swift */; };
-		05F1A44D1F16D83A002F6EE2 /* FloatyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1A4471F16D83A002F6EE2 /* FloatyDelegate.swift */; };
-		05F1A44E1F16D83A002F6EE2 /* FloatyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1A4481F16D83A002F6EE2 /* FloatyItem.swift */; };
-		05F1A44F1F16D83A002F6EE2 /* FloatyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1A4491F16D83A002F6EE2 /* FloatyManager.swift */; };
-		05F1A4501F16D83A002F6EE2 /* FloatyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1A44A1F16D83A002F6EE2 /* FloatyViewController.swift */; };
-		05F1A4511F16D83A002F6EE2 /* FloatyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1A44B1F16D83A002F6EE2 /* FloatyWindow.swift */; };
 		05F1A46E1F170909002F6EE2 /* compas.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F1A4691F170909002F6EE2 /* compas.png */; };
 		05F1A46F1F170909002F6EE2 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F1A46A1F170909002F6EE2 /* face.png */; };
 		05F1A4701F170909002F6EE2 /* lamp.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F1A46B1F170909002F6EE2 /* lamp.png */; };
@@ -30,6 +24,12 @@
 		05F1A47B1F171315002F6EE2 /* geo.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F1A4771F171315002F6EE2 /* geo.png */; };
 		05F1A47C1F171315002F6EE2 /* historical.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F1A4781F171315002F6EE2 /* historical.png */; };
 		05F1A47E1F1716F5002F6EE2 /* paper_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F1A47D1F1716F5002F6EE2 /* paper_icon.png */; };
+		05F1A4861F18FFCE002F6EE2 /* Floaty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1A4801F18FFCE002F6EE2 /* Floaty.swift */; };
+		05F1A4871F18FFCE002F6EE2 /* FloatyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1A4811F18FFCE002F6EE2 /* FloatyDelegate.swift */; };
+		05F1A4881F18FFCE002F6EE2 /* FloatyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1A4821F18FFCE002F6EE2 /* FloatyItem.swift */; };
+		05F1A4891F18FFCE002F6EE2 /* FloatyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1A4831F18FFCE002F6EE2 /* FloatyManager.swift */; };
+		05F1A48A1F18FFCE002F6EE2 /* FloatyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1A4841F18FFCE002F6EE2 /* FloatyViewController.swift */; };
+		05F1A48B1F18FFCE002F6EE2 /* FloatyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F1A4851F18FFCE002F6EE2 /* FloatyWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,13 +63,6 @@
 		05F1A4321F16D093002F6EE2 /* Map AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Map AnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F1A4361F16D093002F6EE2 /* Map_AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_AnimationUITests.swift; sourceTree = "<group>"; };
 		05F1A4381F16D093002F6EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05F1A4451F16D83A002F6EE2 /* Floaty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Floaty.h; path = "../../../Floaty-master/Sources/Floaty.h"; sourceTree = "<group>"; };
-		05F1A4461F16D83A002F6EE2 /* Floaty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Floaty.swift; path = "../../../Floaty-master/Sources/Floaty.swift"; sourceTree = "<group>"; };
-		05F1A4471F16D83A002F6EE2 /* FloatyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatyDelegate.swift; path = "../../../Floaty-master/Sources/FloatyDelegate.swift"; sourceTree = "<group>"; };
-		05F1A4481F16D83A002F6EE2 /* FloatyItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatyItem.swift; path = "../../../Floaty-master/Sources/FloatyItem.swift"; sourceTree = "<group>"; };
-		05F1A4491F16D83A002F6EE2 /* FloatyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatyManager.swift; path = "../../../Floaty-master/Sources/FloatyManager.swift"; sourceTree = "<group>"; };
-		05F1A44A1F16D83A002F6EE2 /* FloatyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatyViewController.swift; path = "../../../Floaty-master/Sources/FloatyViewController.swift"; sourceTree = "<group>"; };
-		05F1A44B1F16D83A002F6EE2 /* FloatyWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatyWindow.swift; path = "../../../Floaty-master/Sources/FloatyWindow.swift"; sourceTree = "<group>"; };
 		05F1A4691F170909002F6EE2 /* compas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compas.png; sourceTree = "<group>"; };
 		05F1A46A1F170909002F6EE2 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
 		05F1A46B1F170909002F6EE2 /* lamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp.png; sourceTree = "<group>"; };
@@ -80,6 +73,13 @@
 		05F1A4771F171315002F6EE2 /* geo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geo.png; sourceTree = "<group>"; };
 		05F1A4781F171315002F6EE2 /* historical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = historical.png; sourceTree = "<group>"; };
 		05F1A47D1F1716F5002F6EE2 /* paper_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper_icon.png; sourceTree = "<group>"; };
+		05F1A47F1F18FFCE002F6EE2 /* Floaty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Floaty.h; sourceTree = "<group>"; };
+		05F1A4801F18FFCE002F6EE2 /* Floaty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Floaty.swift; sourceTree = "<group>"; };
+		05F1A4811F18FFCE002F6EE2 /* FloatyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyDelegate.swift; sourceTree = "<group>"; };
+		05F1A4821F18FFCE002F6EE2 /* FloatyItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyItem.swift; sourceTree = "<group>"; };
+		05F1A4831F18FFCE002F6EE2 /* FloatyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyManager.swift; sourceTree = "<group>"; };
+		05F1A4841F18FFCE002F6EE2 /* FloatyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyViewController.swift; sourceTree = "<group>"; };
+		05F1A4851F18FFCE002F6EE2 /* FloatyWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatyWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,13 +163,13 @@
 		05F1A4441F16D805002F6EE2 /* FloatingButton */ = {
 			isa = PBXGroup;
 			children = (
-				05F1A4451F16D83A002F6EE2 /* Floaty.h */,
-				05F1A4461F16D83A002F6EE2 /* Floaty.swift */,
-				05F1A4471F16D83A002F6EE2 /* FloatyDelegate.swift */,
-				05F1A4481F16D83A002F6EE2 /* FloatyItem.swift */,
-				05F1A4491F16D83A002F6EE2 /* FloatyManager.swift */,
-				05F1A44A1F16D83A002F6EE2 /* FloatyViewController.swift */,
-				05F1A44B1F16D83A002F6EE2 /* FloatyWindow.swift */,
+				05F1A47F1F18FFCE002F6EE2 /* Floaty.h */,
+				05F1A4801F18FFCE002F6EE2 /* Floaty.swift */,
+				05F1A4811F18FFCE002F6EE2 /* FloatyDelegate.swift */,
+				05F1A4821F18FFCE002F6EE2 /* FloatyItem.swift */,
+				05F1A4831F18FFCE002F6EE2 /* FloatyManager.swift */,
+				05F1A4841F18FFCE002F6EE2 /* FloatyViewController.swift */,
+				05F1A4851F18FFCE002F6EE2 /* FloatyWindow.swift */,
 			);
 			name = FloatingButton;
 			sourceTree = "<group>";
@@ -351,14 +351,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05F1A44F1F16D83A002F6EE2 /* FloatyManager.swift in Sources */,
-				05F1A44C1F16D83A002F6EE2 /* Floaty.swift in Sources */,
-				05F1A44D1F16D83A002F6EE2 /* FloatyDelegate.swift in Sources */,
+				05F1A4891F18FFCE002F6EE2 /* FloatyManager.swift in Sources */,
+				05F1A4881F18FFCE002F6EE2 /* FloatyItem.swift in Sources */,
+				05F1A4861F18FFCE002F6EE2 /* Floaty.swift in Sources */,
+				05F1A48B1F18FFCE002F6EE2 /* FloatyWindow.swift in Sources */,
 				05F1A4191F16D093002F6EE2 /* ViewController.swift in Sources */,
-				05F1A4511F16D83A002F6EE2 /* FloatyWindow.swift in Sources */,
-				05F1A44E1F16D83A002F6EE2 /* FloatyItem.swift in Sources */,
 				05F1A4171F16D093002F6EE2 /* AppDelegate.swift in Sources */,
-				05F1A4501F16D83A002F6EE2 /* FloatyViewController.swift in Sources */,
+				05F1A48A1F18FFCE002F6EE2 /* FloatyViewController.swift in Sources */,
+				05F1A4871F18FFCE002F6EE2 /* FloatyDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
